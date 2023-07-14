@@ -336,75 +336,6 @@
         line-height: 30px;
     }
     /* *********** */
-    /* COMODIDADES */
-    /* *********** */
-    
-    .comodidades {
-        max-width: 1100px;
-        margin: auto;
-        background-color: #dde1e9;
-        padding: 100px 20px;
-    }
-    
-    .comodidades .fila {
-        display: flex;
-        align-items: center;
-    }
-    
-    .comodidades .fila .col {
-        width: 50%;
-    }
-    
-    .comodidades .fila .col img {
-        width: 80%;
-        display: block;
-        margin: auto;
-        margin-bottom: 50px;
-    }
-    
-    .comodidades .fila .col .contenedor-titulo {
-        display: flex;
-        align-items: center
-    }
-    
-    .comodidades .fila .col .contenedor-titulo .numero {
-        color: #ff1133;
-        font-weight: bold;
-        display: block;
-        font-size: 5rem;
-    }
-    
-    .comodidades .fila .col .contenedor-titulo .info {
-        margin-left: 30px;
-    }
-    
-    .comodidades .fila .col .contenedor-titulo .info .frase {
-        color: #ff1133;
-    }
-    
-    .comodidades .fila .col .contenedor-titulo .info h2 {
-        font-size: 3rem;
-    }
-    
-    .comodidades .fila .col p {
-        margin-bottom: 10px;
-        line-height: 28px;
-    }
-    
-    .comodidades .fila .col .p-especial {
-        font-weight: bold;
-    }
-    
-    .comodidades .fila .col li {
-        margin-bottom: 20px;
-        color: #1f283e;
-    }
-    
-    .comodidades .fila .col li span {
-        font-weight: bold;
-        color: #ff1133;
-    }
-    /* ********** */
     /* GALERIA */
     /* ********** */
     
@@ -454,79 +385,6 @@
     .galeria .fila .col img {
         width: 100%;
         display: block;
-    }
-    /* *********** */
-    /* ENTRENADORES */
-    /* *********** */
-    
-    .equipo {
-        max-width: 1100px;
-        margin: auto;
-        padding-top: 95px;
-        background-color: #dde1e9;
-    }
-    
-    .equipo .contenedor-titulo {
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        margin: auto;
-    }
-    
-    .equipo .contenedor-titulo .numero {
-        color: #ff1133;
-        font-weight: bold;
-        display: block;
-        font-size: 5rem;
-    }
-    
-    .equipo .contenedor-titulo .info {
-        margin-left: 30px;
-    }
-    
-    .equipo .contenedor-titulo .info .frase {
-        color: #ff1133;
-    }
-    
-    .equipo .contenedor-titulo .info h2 {
-        font-size: 3rem;
-    }
-    
-    .equipo .fila {
-        margin: 50px 0;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .equipo .fila .col {
-        width: 25%;
-    }
-    
-    .equipo .fila .col img {
-        max-height: 400px;
-        display: block;
-        margin: auto;
-    }
-    
-    .equipo .fila .info {
-        border: 5px solid #1f283e;
-        text-align: center;
-        border-radius: 5px;
-        padding: 20px;
-        background: linear-gradient(#ff1133, #9a0e23);
-        color: #fff;
-    }
-    
-    .equipo .fila .info p {
-        margin: 20px 0;
-    }
-    
-    .equipo .fila .info a {
-        color: #fff;
-        text-decoration: none;
-        display: inline-block;
-        margin: 0 20px;
-        font-size: 20px;
     }
     /* *********** */
     /* CONTACTO */
@@ -709,29 +567,7 @@
         .servicios .contenido-seccion .fila .col {
             width: 100%;
         }
-        .comodidades .fila {
-            display: block;
-        }
-        .comodidades .fila .col {
-            width: 100%;
-        }
-        .comodidades .fila .col img {
-            max-width: 200px;
-        }
-        .equipo .fila {
-            display: block;
-        }
-        .equipo .fila .col {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .equipo .fila .col img {
-            max-height: 200px;
-        }
-        .equipo .fila .info {
-            max-width: 250px;
-            margin: auto;
-        }
+
         .contacto .fila {
             display: block;
         }
